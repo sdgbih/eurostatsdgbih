@@ -137,10 +137,18 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: ''
-  tab_2: ''
-  tab_3: ''
-  tab_4: ''
+  tab_1:
+    label: Opis indikatora
+    metadata:
+      - computation_units
+  tab_2:
+    label: Namjera i cilj
+    metadata:
+      - policy_relevance
+  tab_3:
+    label: Metodologija
+    metadata:
+      - methodology_characteristics
 languages:
   - en
   - es
