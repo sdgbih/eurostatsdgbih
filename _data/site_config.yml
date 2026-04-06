@@ -149,6 +149,15 @@ indicator_tabs:
     label: Metodologija
     metadata:
       - methodology_characteristics
+
+# DODAJ OVO ISPOD - Neke verzije 2.4.0 traže ovo da bi popunile sadržaj taba
+indicator_metadata:
+  - name: computation_units
+    label: Opis indikatora
+  - name: policy_relevance
+    label: Namjera i cilj
+  - name: methodology_characteristics
+    label: Metodologija
 languages:
   - en
   - es
